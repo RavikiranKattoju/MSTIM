@@ -1,23 +1,4 @@
-/**
- * ArduinoSoftware_Arduino_IDE
- *
- *  Copyright 2016 by Tim Dünte <tim.duente@hci.uni-hannover.de>
- *  Copyright 2016 by Max Pfeiffer <max.pfeiffer@hci.uni-hannover.de>
- *
- *  Licensed under "The MIT License (MIT) – military use of this product is forbidden – V 0.2".
- *  Some rights reserved. See LICENSE.
- *
- * @license "The MIT License (MIT) – military use of this product is forbidden – V 0.2"
- * <https://bitbucket.org/MaxPfeiffer/letyourbodymove/wiki/Home/License>
- */
 
-/*
- * EMSChannel.cpp
- *
- *  Created on: 06.05.2014
- *  Author: Tim Duente
- *  Edit by: Max Pfeiffer 15.06.2015
- */
 #include "EMSChannel.h"
 
 //---------- constructor ----------------------------------------------------
@@ -148,3 +129,4 @@ void EMSChannel::setMinIntensity(int minIntensity) {
 }
 
 //---------- private ----------------------------------------------------
+
