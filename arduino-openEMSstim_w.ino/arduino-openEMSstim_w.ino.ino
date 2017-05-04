@@ -125,10 +125,15 @@ void doCommand(String str)
               {     
                    temp += (char)str[i];
               }
-          digitalPot.setPosition(1, temp.toInt());
-          digitalPot.setPosition(3, temp.toInt());
-          Serial.println("EMS1:"+String(digitalPot.getPosition(1))+ "EMS2:"+String(digitalPot.getPosition(3)));
+          digitalPot.setPosition_sync(1,3, temp.toInt());
+          Serial.println("EMS1:"+String(digitalPot.getPosition(1))+ "EMS2:"+String(digitalPot.getPosition(3))+"\t");
       }    
+    else if(c=='x')
+      {
+          emsChannel1.deactivate();
+          emsChannel2.deactivate();
+          
+      }
     else Serial.println("Error /t");    
 }
 
