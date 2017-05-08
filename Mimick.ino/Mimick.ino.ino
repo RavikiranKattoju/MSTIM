@@ -25,7 +25,7 @@
 #include "avr/pgmspace.h"
 
 //DEBUG: setup for verbose mode (prints debug messages if DEBUG_ON is 1)
-#define DEBUG_ON 1
+#define DEBUG_ON 0
 
 //USB: allows to send simplified test commands (one char each, refer to https://github.com/PedroLopes/openEMSstim) to the board via USB (by default this is inactive)
 #define USB_TEST_COMMANDS_ACTIVE 1
